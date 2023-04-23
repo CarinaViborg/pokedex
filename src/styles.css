@@ -1,0 +1,198 @@
+ /*pokemonPage*/
+                        .pokemonContainer {
+                            width: 90%;
+                            margin: auto;
+                            padding-top: 50px;
+                            display: flex;
+                          }
+                          .left-content,
+                          .right-content {
+                            flex-basis: 50%;
+                          }
+                          .left-content {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+                            grid-gap: 2rem;
+                          }
+                          .card {
+                            width: 270px;
+                            background-color: #9edef9;
+                            border-radius: 1rem;
+                            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+                            padding: 0 1.5rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                            
+                          }
+                          
+                          .numberDiv{
+                            font-size:xx-small;
+                            width: 10px;
+                          }
+                          
+                          .statBarsDiv{
+                            display: flex;
+                            justify-content: flex-end;
+                            padding: auto;
+                            width: 72%;
+                          }
+                          
+                          .barsInformationPageDiv{
+                            width: 50%;
+                            margin: auto;
+                          }
+                          
+                          .barsInformationPageDiv .ability{
+                            transform: scale(.7);
+                          }
+                          
+                          .barsInformationPageDiv h1{
+                            font-size: 0;
+                          }
+                          
+                          
+                          .right-content {
+                            width: 50%;
+                            text-align: center;
+                            color: black;
+                            position: fixed;
+                            top: 100px;
+                            right: 10px;
+                          }
+                          .right-content img {
+                            margin: 1.5rem;
+                            margin-bottom: 0%;
+                            margin-top: 0%;
+                            height: 160px;
+                            width: 160px;
+                          }
+                          .right-content h1 {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            font-size: xx-large;
+                          }
+                          .types {
+                            width: 70%;
+                            margin: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 0%;
+                          }
+                          .types .group {
+                            color: white;
+                            padding: 0.5rem;
+                            font-size: 12px;
+                            border-radius: 8px;
+                            margin-left: 1rem;
+                          }
+                          
+                          
+                          .ability{
+                            display: flex;
+                            justify-content: center;
+                            height: 25px;
+                            font-size: small;
+                          }
+                          
+                          .ability::before, .ability::after{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transform: scale(.1);
+                            width: 15%;
+                          }
+                          
+                          .base-stat {
+                            margin-top: 2rem;
+                          }
+                          
+                          .btn-group {
+                            display: flex;
+                          }
+                          .btn-group button {
+                            outline: none;
+                            border: none;
+                            width: 150px;
+                            padding: 0.3rem 0;
+                            margin: 1rem;
+                            font-size: 17px;
+                            font-weight: bold;
+                            color: white;
+                            background-color: #b74555;
+                            border-radius: 8px;
+                            cursor: pointer;
+                          }
+                          
+                          .btn-group button:hover, .card:hover {
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+                          }
+                          
+                          
+                                                  /*informationPage*/
+                          .PokemonDetail {
+                            text-align: center;
+                          }
+                          
+                          .container {
+                            display: flex;
+                            opacity: 0.9;
+                            justify-content: center;
+                            align-items: center;
+                            width: 30%;
+                            height: 200px;
+                            margin: auto;
+                            border-radius: 25px;
+                            border: solid black;
+                          }
+                          
+                          img {
+                            width: 96px;
+                            height: 96px;
+                          }
+                          
+                          input {
+                            box-sizing: border-box;
+                            font-size: 1rem;
+                            padding: 0.5rem;
+                            display: block;
+                            margin: 2rem auto;
+                          }
+                          
+                          h1 {
+                            font-family: "Courier New", Courier, monospace;
+                            font-weight: bold;
+                            font-size: 2em;
+                            color: #eee;
+                            -webkit-text-stroke: 2px rgb(28, 24, 41);
+                          }
+                          
+                          
+                                        /*navigationsknapper*/
+                          nav {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                          }
+                          
+                          nav a {
+                            text-decoration: none;
+                            display: block;
+                            padding: 15px 25px;
+                            text-align: center;
+                            background-color: rgb(64, 56, 173);
+                            color: #ffffff;
+                            margin: 0;
+                            font-family: sans-serif;
+                            border-radius: 15px;
+                            margin: 5px;
+                          }
+                          
+                          nav a:hover {
+                            background-color: #8490db;
+                            color: #ffffff;
+                          }
