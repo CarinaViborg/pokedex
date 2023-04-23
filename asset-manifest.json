@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CarinaViborg/pokedex/static/css/main.e0e96a01.css",
+    "main.js": "/CarinaViborg/pokedex/static/js/main.e1aea581.js",
+    "index.html": "/CarinaViborg/pokedex/index.html",
+    "main.e0e96a01.css.map": "/CarinaViborg/pokedex/static/css/main.e0e96a01.css.map",
+    "main.e1aea581.js.map": "/CarinaViborg/pokedex/static/js/main.e1aea581.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e96a01.css",
+    "static/js/main.e1aea581.js"
+  ]
+}
